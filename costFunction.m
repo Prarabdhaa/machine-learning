@@ -14,7 +14,7 @@ J = 0;
 %               You should set J to the cost.
 
 
-J = (0.5/m) * ( X*theta - y) * ( X*theta - y)';
+J = (0.5/m) * ( X*theta - y)' * ( X*theta - y);
 % alternatively 
 % J = (0.5/m) * ((X*theta - y).^2);
 
